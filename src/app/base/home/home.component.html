@@ -1,0 +1,130 @@
+<div class="main-container">
+    <div class="home-box">
+        <div class="mbl-view">
+            <img id="menubar" [src]="menuBarImage" alt="menubarImage" (click)="visibleMenu()">
+        </div>
+        <div class="web-side">
+            <div class="navbar2" id="nav">
+                <p class="portfolio">portfolio</p>
+                <div class="navlist">
+                    <a class="home" (click)="showBlock('Home')" #Hom>Home</a>
+                    <a (click)="showBlock('About')" #Abt>About</a>
+                    <a (click)="showBlock('Projects')" #Pjts>Projects</a>
+                    <a (click)="showBlock('Services')" #Servs>Services</a>
+                    <a (click)="showBlock('Skills')" #Skls>Skills</a>
+                    <a (click)="showBlock('Contacts')" #Con>Contacts</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="Hom" class="Home d-flex" #home>
+            <!-- <div class="image-box"> -->
+            <img id="pro-image" src="/assets/images/ProfileImage.jpg" alt="profile">
+            <!-- </div> -->
+            <div class="web-welcome-lines">
+                <h2 id="wel">Welcome to my portfolio!</h2>
+                <h4>Hello! I'm Bharath 👋</h4>
+                <h4 id="role">Junior Software Developer | API Specialist | Backend Enthusiast
+                </h4>
+                <p class="wel-lines"> a passionate full-stack developer and software engineer dedicated to crafting
+                    seamless, efficient, and innovative digital solutions.
+                    Explore my work and journey in building robust applications across the tech stack!</p>
+            </div>
+        </div>
+
+        <div id="Abt" class="About d-block" #about>
+            <b class="abt-title">ABOUT OF ME</b>
+            <p class="about-lines">A full-stack developer and software engineer from Usilampatti,
+                Madurai. I hold a
+                BCA degree and have a strong passion for creating innovative digital solutions. With expertise in both
+                front-end and back-end technologies, I enjoy building seamless, user-friendly applications.
+                I strive to build software that is not only functional but also impactful, solving real-world problems
+                with
+                efficiency and scalability.<br>
+                <span>Hobbies:</span>
+                When I'm not coding, you’ll find me playing chess, carrom, or enjoying a game of cricket
+            </p>
+        </div>
+
+        <hr>
+
+        <div id="Skls" class="Skills d-block" #skills>
+            <b class="skill-title">SKILLS</b>
+            <div class="skill-content d-block">
+                <span> Programming Languages :</span>
+                <li><i class="fab fa-node-js"></i>Node.js, <i class="fas fa-code"></i>TypeScript, <i
+                        class="fas fa-table"></i>
+                    SQL, <i class="fab fa-java"></i>
+                    Java, <i class="fas fa-server"></i>
+                    Servlet</li>
+                <span>Frameworks/Tools :</span>
+                <li><i class="fab fa-angular"></i>
+                    Angular, <i class="fas fa-database"></i>PostgreSQL</li>
+                <span> Other Skills :</span>
+                <li><i class="fas fa-keyboard"></i>
+                    English Typewriting</li>
+                <span>Soft Skills :</span>
+                <li>Problem-Solving, Communication, Collaboration</li>
+            </div>
+        </div>
+
+        <hr>
+
+        <div id="Pjts" class="Projects d-block" #projects>
+            <b class="pjt-title">PROJECTS</b>
+            <li class="li-prjt">Organic Foods E-commerce Website :</li>
+            <p>
+                This project is a user-friendly e-commerce platform designed to connect customers directly with organic
+                food
+                suppliers. Built with HTML, CSS, and JavaScript, the site provides an intuitive interface for browsing,
+                selecting, and purchasing organic products. Features include a product gallery, detailed descriptions, a
+                shopping cart, and a streamlined checkout process, all optimized for seamless user experience and
+                responsive
+                design.
+                This project demonstrates my skills in front-end web development and my commitment to promoting healthy
+                living through technology.</p>
+        </div>
+
+        <hr>
+
+        <div id="Servs" class="Services d-block" #services>
+            <b class="srvc-title">SERVICES</b>
+            <div class="ser-content d-block">
+                <i class="fas fa-cogs"></i>
+                <span>
+                    Development :</span>
+                <li>Creating robust APIs and scalable backend solutions for web applications</li>
+                <i class="fas fa-project-diagram"></i>
+                <span>
+                    API Microservices :</span>
+                <li>Developing efficient microservices tailored for enterprise applications</li>
+                <i class="fas fa-chart-line"></i>
+                <span>
+                    Data Analytics :</span>
+                <li>Building tools for data-driven insights to enhance decision-making</li>
+                <i class="fas fa-laptop-code"></i>
+                <span>Web Development :</span>
+                <li> Crafting user-friendly, responsive websites for e-commerce and analytics platforms</li>
+
+            </div>
+        </div>
+
+        <hr>
+
+        <div id="Con" class="Contacts d-block" #contacts>
+            <b class="cnts-title">CONTACT</b>
+            <div class="cnts-content d-block">
+                <a id="email" href="bharathmayan4454@gmail.com"><i class="fas fa-envelope"></i>
+                    Email Me!</a><br>
+                <span><i class="fas fa-phone"></i>
+                    Phone: </span> <a id="num" href="9345443519">9345443519</a><br>
+                <span>Social Links:</span><a id="social-link" href=""><i class="fab fa-instagram"></i>
+                </a><a id="social-link" href=""><i class="fab fa-linkedin"></i>
+                </a>
+                <a id="social-link" href=""><i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+
+    </div>
