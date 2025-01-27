@@ -38,7 +38,10 @@ export class HomeComponent {
 
   showBlock(barName: any) {
     this.activeBlock = barName;
-
+    // console.log("WWWWW",window.window.innerWidth)
+    if (window.window.innerWidth < 772) {
+      this.visibleMenu();
+    }
     if (this.activeBlock === 'Home') {
       this.scrollToSection(this.goToHome);
     } else if (this.activeBlock === 'About') {

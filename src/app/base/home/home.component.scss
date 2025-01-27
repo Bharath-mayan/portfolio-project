@@ -127,6 +127,7 @@ section {
     width: auto;
 
     .skill-title {
+        font-family: 'Playfair Display', serif;
         margin-left: 10px;
         font-size: 250%;
         font-weight: 600;
@@ -158,6 +159,7 @@ section {
     padding: 5%;
 
     .pjt-title {
+        font-family: 'Playfair Display', serif;
         font-size: 250%;
         font-weight: 600;
         color: #ddd;
@@ -180,6 +182,7 @@ section {
     padding: 5%;
 
     .srvc-title {
+        font-family: 'Playfair Display', serif;
         margin-left: 10px;
         font-size: 250%;
         font-weight: 600;
@@ -210,6 +213,7 @@ section {
     padding: 5%;
 
     .cnts-title {
+        font-family: 'Playfair Display', serif;
         // margin-left: 10px;
         font-size: 250%;
         font-weight: 600;
@@ -354,5 +358,11 @@ section {
 
     .navbar2 {
         display: flex;
+        float: right;
+        overflow: hidden;
+        background-color: rgb(17, 1, 1);
+        position: fixed;
+        width: 100%;
+
     }
 }
